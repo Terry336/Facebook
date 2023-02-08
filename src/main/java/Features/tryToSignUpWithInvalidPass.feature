@@ -5,4 +5,4 @@ Feature: Try to sign up with invalid pass
     Given User opens to Facebook page
     When User clicks on Create new account button
     And Fills in all the mandatory fields but with invalid password
-    And User is not signed up and remains on the same page
+    Then User is not signed up and remains on the same page
