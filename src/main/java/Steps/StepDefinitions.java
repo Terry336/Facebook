@@ -53,8 +53,8 @@ public class StepDefinitions {
         Thread.sleep(3000);
         driver.findElement(By.xpath("//input[@name='firstname']")).sendKeys("Teresa");
         driver.findElement(By.xpath("//input[@name='lastname']")).sendKeys("Rodriges");
-        driver.findElement(By.xpath("//input[@name='reg_email__']")).sendKeys("tersy543@gmail.com");
-        driver.findElement(By.xpath("//input[@name='reg_email_confirmation__']")).sendKeys("tersy543@gmail.com");
+        driver.findElement(By.xpath("//input[@name='reg_email__']")).sendKeys("tteerrsy44543@gmail.com");
+        driver.findElement(By.xpath("//input[@name='reg_email_confirmation__']")).sendKeys("tteerrsy44543@gmail.com");
         driver.findElement(By.xpath("//input[@name='reg_passwd__']")).sendKeys("123456tR!");
         WebElement Month = driver.findElement(By.xpath("//select[@id='month']"));
         Actions actions= new Actions(driver);
